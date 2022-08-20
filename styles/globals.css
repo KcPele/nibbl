@@ -88,3 +88,9 @@ img{
     padding: 0 20px;
   }
 }
+
+@media screen and (max-width: 620px){
+  .app__btn_puple, .app__btn_white{
+    padding: 6px 24px
+  }
+}
