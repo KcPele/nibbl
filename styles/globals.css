@@ -17,6 +17,7 @@
   --font-100: 1rem;
   --font-150: 1.4rem;
   --font-200: 1.6rem;
+  --font-250: 2rem;
   --font-300: 2.2rem;
   --font-400: 3.5rem;
 }
@@ -44,7 +45,7 @@ img {
 }
 
 .section__padding {
-  padding: 0 clamp(20px, 3.3vw, 60px);
+  padding: 0 clamp(2rem, 3.3vw, 4rem);
 }
 .app__btn_white {
   padding: 10px 33px;
@@ -69,12 +70,46 @@ img {
   background: var(--background-color);
   display: flex;
   justify-content: center;
-  align: center;
+  align-items: center;
   flex-direction: row;
   cursor: pointer;
 }
 .flex__wrapper {
   display: flex;
+}
+.header__content {
+  margin-top: min(5.5vw, 60px);
+  display: flex;
+  column-gap: min(calc(3rem + 12px), 7.8vw);;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.header__content-text, .header__content-video{
+    flex: 1;
+    max-width: 100%;
+}
+.header__content-video{
+  display: flex;
+  justify-content: flex-end;
+}
+.header__content-video_img {
+   width: 100%;
+   
+}
+
+.app__p {
+  font-size: clamp(var(--font-100), 4.5vw, var(--font-150));
+  color: #4a4a50;
+  line-height:clamp(1.3rem, 2.8vw, calc(1rem + 14px));
+}
+
+.header__context-button button, .app__btn{
+  border: none;
+
+}
+.app__btn{
+  padding: 0.4rem 0;
 }
 
 @media screen and (max-width: 620px) {
