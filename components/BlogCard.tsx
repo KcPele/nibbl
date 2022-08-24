@@ -5,7 +5,7 @@ const BlogCard = ({image, title, subtitle}: customerType) => {
   return (
     <div className=''>
         <div>
-            <Image src={image} width="293px" height="231px" />
+            <Image src={image} width="293px" height="231px" alt="blog picture"/>
         </div>
         <div className='blogcard__subsection'>
             <h3>{title}</h3>

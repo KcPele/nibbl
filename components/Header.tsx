@@ -16,7 +16,7 @@ const Header = () => {
             </div>
         </div>
         <div className='header__content-video'>
-            <Image className='header__content-video_img' src={video}   width="523px" height="344px" />
+            <Image className='header__content-video_img' src={video}  alt='vidio'  width="523px" height="344px" />
         </div>
     </div>
   )

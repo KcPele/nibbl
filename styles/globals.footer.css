@@ -1,6 +1,7 @@
 .footer__container {
     flex-direction: column;
     padding: clamp(2rem, 6vw, 5rem);
+    background: var(--color-white);
   }
   .footer__content{
     align-items: flex-start;
