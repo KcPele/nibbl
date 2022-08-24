@@ -1,0 +1,18 @@
+.welcome__content{
+    flex-direction: column;
+    background: var(--background-gradient);
+    border-radius: 1.8rem;
+    margin: clamp(2rem, 6vw, 5rem);
+    min-height: 20.8rem;
+    padding: 0.5rem;
+  }
+  .welcome__content h2 {
+    font-weight: 600;
+  font-size: clamp(var(--font-150), 4.5vw, var(--font-250));
+  color: var(--color-white);
+  }
+  .welcome__content-btn button {
+    border: 0.15rem solid var(--color-white);
+    margin: 0.5rem;
+  }
+  

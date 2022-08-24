@@ -1,0 +1,19 @@
+.footer__container {
+    flex-direction: column;
+    padding: clamp(2rem, 6vw, 5rem);
+  }
+  .footer__content{
+    align-items: flex-start;
+  }
+  
+  .footer__icons{
+    color: var(--color-btn);
+    gap: 1rem;
+  }
+  
+  @media screen and (max-width: 620px) {
+  .footer__container-copyright{
+    flex-direction: column;
+  }
+
+  }

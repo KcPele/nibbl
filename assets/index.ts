@@ -7,7 +7,9 @@ import facebook from "./facebook.png";
 import person from "./person.png";
 import frame1 from "./frame1.png";
 import frame2 from "./frame2.png";
-
+import customer1 from "./customer1.png";
+import customer2 from "./customer2.png";
+import customer3 from "./customer3.png";
 export {
     logo,
     video,
@@ -18,4 +20,7 @@ export {
     person,
     frame1,
     frame2,
+    customer1,
+    customer2,
+    customer3
 }

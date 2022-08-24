@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import styles from '../styles/Home.module.css'
-import { Header, Navbar, Usage } from '../components'
+import { Blog, Footer, Header, Navbar, Started, Usage, Welcome,  } from '../components'
 import Article from '../components/Article'
 const Home: NextPage = () => {
   return (
@@ -9,6 +9,10 @@ const Home: NextPage = () => {
     <Header />
     <Usage />
     <Article />
+    <Started />
+    <Blog />
+    <Welcome />
+    <Footer />
     </div>
   )
 }
